@@ -4,27 +4,27 @@ EXTRA_DIST = CMakeLists.txt
 
 lib_LTLIBRARIES =	lib5250.la
 
-lib5250_la_SOURCES =	buffer.c\
-			conf.c\
-			dbuffer.c\
-			debug.c\
-			display.c\
-			field.c\
-			macro.c\
-			menu.c\
-			printsession.c\
-			record.c\
-			scrollbar.c\
-			scs.c\
-			session.c\
-			sslstream.c\
-			stream.c\
-			telnetstr.c\
-			terminal.c\
-			utility.c\
-			version.c\
-			window.c\
-			wtd.c
+lib5250_la_SOURCES =	buffer.cpp\
+			conf.cpp\
+			dbuffer.cpp\
+			debug.cpp\
+			display.cpp\
+			field.cpp\
+			macro.cpp\
+			menu.cpp\
+			printsession.cpp\
+			record.cpp\
+			scrollbar.cpp\
+			scs.cpp\
+			session.cpp\
+			sslstream.cpp\
+			stream.cpp\
+			telnetstr.cpp\
+			terminal.cpp\
+			utility.cpp\
+			version.cpp\
+			window.cpp\
+			wtd.cpp
 
 AM_CPPFLAGS = -DSYSCONFDIR=\"$(sysconfdir)\"
 

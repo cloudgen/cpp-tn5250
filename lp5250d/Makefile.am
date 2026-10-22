@@ -9,12 +9,12 @@ bin_PROGRAMS =		scs2ascii\
 
 LDADD = ../lib5250/lib5250.la
 
-scs2ascii_SOURCES =	scs2ascii.c
+scs2ascii_SOURCES =	scs2ascii.cpp
 
-scs2pdf_SOURCES =	scs2pdf.c
+scs2pdf_SOURCES =	scs2pdf.cpp
 
-scs2ps_SOURCES = 	scs2ps.c
+scs2ps_SOURCES = 	scs2ps.cpp
 
-lp5250d_SOURCES =	lp5250d.c
+lp5250d_SOURCES =	lp5250d.cpp
 
 AM_CPPFLAGS = -DSYSCONFDIR=\"$(sysconfdir)\" -I$(top_srcdir)/lib5250

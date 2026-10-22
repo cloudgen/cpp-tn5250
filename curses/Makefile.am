@@ -6,9 +6,9 @@ bin_PROGRAMS =		tn5250
 
 LDADD = ../lib5250/lib5250.la
 
-tn5250_SOURCES = 	cursesterm.c tn5250.c
+tn5250_SOURCES = 	cursesterm.cpp tn5250.cpp
 
-tn5250_CFLAGS = $(AM_CFLAGS)
+tn5250_CXXFLAGS = $(AM_CXXFLAGS)
 
 tn5250_LDFLAGS = $(CURSES_LIBS)
 

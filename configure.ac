@@ -17,6 +17,7 @@ AH_TEMPLATE([USE_OWN_KEY_PARSING], [Define to let cursesterm handle key mapping.
 
 # Checks for programs.
 AC_PROG_CC
+AC_PROG_CXX
 AC_PROG_INSTALL
 LT_INIT
 

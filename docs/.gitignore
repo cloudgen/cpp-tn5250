@@ -1,0 +1,19 @@
+# Nested SSOT aligned with root .gitignore.
+# Track product law, the requirement law molds, product reviews,
+# and the checklist directory. Root .gitignore keeps only the four
+# product checklists.
+*
+!.gitignore
+!requirements/
+!requirements/**
+!reviews/
+!reviews/**
+!checklists/
+!checklists/2026-10-22-checklist-logger-folder.md
+!checklists/2026-10-22-checklist-log-verbs.md
+!checklists/2026-10-22-checklist-tn5250-terminal.md
+!checklists/2026-10-22-checklist-gnome-window.md
+!templates/
+templates/*
+!templates/requirements/
+!templates/requirements/**

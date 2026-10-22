@@ -1,7 +1,10 @@
 cmake_minimum_required(VERSION 3.12)
-project(tn5250 LANGUAGES C VERSION 0.19.0)
+project(tn5250 LANGUAGES CXX VERSION 0.19.0)
 
-include(CheckIncludeFile)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+include(CheckIncludeFileCXX)
 include(GNUInstallDirs)
 
 find_package(OpenSSL)
@@ -14,14 +17,14 @@ endif()
 
 option(CURSES_OLD_KEYS "Use curses built-in key handling" YES)
 
-check_include_file("fcntl.h" HAVE_FCNTL_H)
-check_include_file("pwd.h" HAVE_PWD_H)
-check_include_file("syslog.h" HAVE_SYSLOG_H)
-check_include_file("sys/time.h" HAVE_SYS_TIME_H)
-check_include_file("sys/types.h" HAVE_SYS_TYPES_H)
-check_include_file("sys/wait.h" HAVE_SYS_WAIT_H)
-check_include_file("termcap.h" HAVE_TERMCAP_H)
-check_include_file("unistd.h" HAVE_UNISTD_H)
+check_include_file_cxx("fcntl.h" HAVE_FCNTL_H)
+check_include_file_cxx("pwd.h" HAVE_PWD_H)
+check_include_file_cxx("syslog.h" HAVE_SYSLOG_H)
+check_include_file_cxx("sys/time.h" HAVE_SYS_TIME_H)
+check_include_file_cxx("sys/types.h" HAVE_SYS_TYPES_H)
+check_include_file_cxx("sys/wait.h" HAVE_SYS_WAIT_H)
+check_include_file_cxx("termcap.h" HAVE_TERMCAP_H)
+check_include_file_cxx("unistd.h" HAVE_UNISTD_H)
 
 configure_file(config-cmake.h.in config.h @ONLY)
 
