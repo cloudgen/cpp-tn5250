@@ -15,4 +15,4 @@ The 1.0.x line is supported. The protocol library version is tn5250 0.19.0 and i
 
 ## Reporting a vulnerability
 
-Email **Cloudgen Wong** <cloudgen.wong@gmail.com> with a description, the steps to reproduce, and the impact. Do not include a live session trace if it contains screen data you cannot share.
+Email **Cloudgen Wong** <cloudgen.wong@gmail.com> with a description, the steps to reproduce, and the impact. Do not include a live session trace if it contains screen data you cannot share. Non-sensitive defects can use https://github.com/cloudgen/cpp-tn5250/issues. Do not put a session trace or a credential in a public issue.

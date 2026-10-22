@@ -52,7 +52,7 @@ This workspace is a software product people install and run: a GNOME program who
 - Display name: `cpp-tn5250` (`PROJECT_NAME` in `src/main/cpp/project.h`).
 - Runtime id: `cpp-tn5250` (`PROJECT_ID`).
 - Version macros in `project.h` are the runtime version `1.0.0`. `project.ini` `VERSION` and `meson.build` use the same `1.0.0`. The protocol library version stays `0.19.0` from `config.h`. `project.h` does not define `VERSION`.
-- This folder is not a git repository. No origin URL is recorded.
+- This folder is a git repository. The public origin is the project repository named by the root README Stars banner.
 - Host packages and link modules are owned by `requirement-cpp-dependencies.md`.
 
 ## 3. Residual ownership

@@ -1,6 +1,6 @@
 # Requirements registry
 
-Product law for cpp-tn5250. Rows match files in this folder.
+Product law for cpp-tn5250. Rows match files in this folder. The public source repository is the project repository named by the root README Stars banner.
 
 | Key | Area | Status | Path |
 |-----|------|--------|------|
